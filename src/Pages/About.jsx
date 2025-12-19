@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 import { FaCar, FaShieldAlt, FaUsers } from 'react-icons/fa';
 import './Css/about.css';
 
@@ -8,19 +8,19 @@ const About = () => {
   return (
     <div className="about-container">
       <Header />
-      
+
       <div className="about-header">
         <h1 className="about-title">About Us</h1>
         <div className="about-description">
           <p>
-            We offer a varied fleet of cars, ranging from the compact. All our vehicles have air 
-            conditioning, power steering, electric windows. All our vehicles are bought and maintained at 
+            We offer a varied fleet of cars, ranging from the compact. All our vehicles have air
+            conditioning, power steering, electric windows. All our vehicles are bought and maintained at
             official dealerships only. Automatic transmission cars are available in every booking class.
           </p>
-          
+
           <p>
-            Our mission is to be recognised as the global leader in Car Rental for companies and the 
-            public and private sector by partnering with our clients to provide the best and most efficient 
+            Our mission is to be recognised as the global leader in Car Rental for companies and the
+            public and private sector by partnering with our clients to provide the best and most efficient
             Car Rental solutions and to achieve service excellence.
           </p>
         </div>
