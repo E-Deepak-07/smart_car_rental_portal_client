@@ -1,0 +1,114 @@
+/* Header Component Styles */
+.header-container {
+  background-color: #000000;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333333;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  height: 40px;
+  margin-right: 1rem;
+}
+
+.header-center {
+  flex: 1;
+  text-align: center;
+}
+
+.header-title {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Arial Black', Arial, sans-serif;
+  white-space: nowrap;
+}
+
+.header-nav {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #333333;
+  color: #ff6b35;
+}
+
+.header-right {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.header-icon {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.header-icon:hover {
+  background-color: #333333;
+}
+
+@media (max-width: 1200px) {
+  .header-title {
+    font-size: 1.2rem;
+  }
+  .header-nav {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-container {
+    padding: 1rem;
+  }
+  .header-title {
+    font-size: 1rem;
+  }
+  .header-nav {
+    gap: 1rem;
+  }
+  .nav-link {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 0.9rem;
+  }
+  .header-nav {
+    gap: 0.8rem;
+  }
+  .nav-link {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
